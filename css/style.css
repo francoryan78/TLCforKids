@@ -37,7 +37,10 @@ header.site-header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 24px 40px;
+  width: calc(100% - 80px);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 0;
   gap: 20px;
 }
 
@@ -133,7 +136,7 @@ a { color: var(--coral); }
   border-radius: 4px;
   overflow: hidden;
   max-width: 900px;
-  margin: 0 0 32px;
+  margin: 0 auto 32px;
 }
 
 .hero-frame img {
@@ -182,7 +185,7 @@ a { color: var(--coral); }
 }
 
 @media (max-width: 760px) {
-  header.site-header { padding: 16px 20px; }
+  header.site-header { width: calc(100% - 40px); padding: 16px 0; }
   main.content { width: calc(100% - 32px); margin: 16px auto 32px; padding: 28px 24px; }
 }
 
