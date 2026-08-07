@@ -4,6 +4,7 @@
   --coral: #ff8282;
   --green: #9cd3a5;
   --blue: #7fb2e5;
+  --pink: #f6a3b3;
   --yellow: #f7e08a;
   --text-dark: #333;
   --text-muted: #717070;
@@ -36,13 +37,22 @@ header.site-header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 16px 40px;
-  gap: 16px;
+  padding: 24px 40px;
+  gap: 20px;
 }
 
 header.site-header .logo img {
-  height: 70px;
+  height: 130px;
+  width: auto;
   display: block;
+  flex-shrink: 0;
+}
+
+nav.site-nav {
+  background: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 18px 36px;
 }
 
 nav.site-nav ul {
@@ -60,6 +70,7 @@ nav.site-nav a {
   font-weight: 600;
   font-size: 17px;
   letter-spacing: 0.02em;
+  white-space: nowrap;
   transition: color 0.15s ease;
 }
 
@@ -161,39 +172,70 @@ a { color: var(--coral); }
 
 .home-intro {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  margin-top: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+@media (max-width: 900px) {
+  .home-intro { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 760px) {
-  .home-intro { grid-template-columns: 1fr; }
   header.site-header { padding: 16px 20px; }
   main.content { width: calc(100% - 32px); margin: 16px auto 32px; padding: 28px 24px; }
 }
 
+@media (max-width: 560px) {
+  .home-intro { grid-template-columns: 1fr; }
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.home-card .card-body {
+  flex: 1;
+  padding: 24px 24px 28px;
+}
+
+.home-card:nth-child(1) { background: var(--blue); }
+.home-card:nth-child(2) { background: var(--pink); }
+.home-card:nth-child(3) { background: var(--green); }
+.home-card:nth-child(4) { background: var(--coral); }
+
 .home-card h2 {
-  color: var(--coral);
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 21px;
   font-weight: 700;
   margin: 0 0 10px;
 }
 
 .home-card p {
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.95);
   font-size: 15px;
   max-width: none;
 }
 
 .home-card a.more-link {
-  display: inline-block;
-  margin-top: 6px;
-  font-weight: 600;
-  color: var(--blue);
+  display: block;
+  background: #ffffff;
+  padding: 14px 24px;
+  font-weight: 700;
+  color: var(--coral);
   text-decoration: none;
 }
 
 .home-card a.more-link:hover { text-decoration: underline; }
+
+.home-card a.card-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
 
 .contact-info {
   margin-top: 14px;
