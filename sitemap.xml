@@ -1,28 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="https://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tlcforkidsutah.com/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/"/>
   </url>
   <url>
     <loc>https://tlcforkidsutah.com/about.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/about.html"/>
   </url>
   <url>
     <loc>https://tlcforkidsutah.com/programs.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/programs.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/programs.html"/>
   </url>
   <url>
     <loc>https://tlcforkidsutah.com/staff.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/staff.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/staff.html"/>
   </url>
   <url>
     <loc>https://tlcforkidsutah.com/contact.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/contact.html"/>
+  </url>
+  <url>
+    <loc>https://tlcforkidsutah.com/es/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/"/>
+  </url>
+  <url>
+    <loc>https://tlcforkidsutah.com/es/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/about.html"/>
+  </url>
+  <url>
+    <loc>https://tlcforkidsutah.com/es/programs.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/programs.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/programs.html"/>
+  </url>
+  <url>
+    <loc>https://tlcforkidsutah.com/es/staff.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/staff.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/staff.html"/>
+  </url>
+  <url>
+    <loc>https://tlcforkidsutah.com/es/contact.html</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tlcforkidsutah.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://tlcforkidsutah.com/es/contact.html"/>
   </url>
 </urlset>
