@@ -94,6 +94,22 @@
           <div class="icon-row"><a href="mailto:info@tlcforkidsutah.com">info@tlcforkidsutah.com</a></div>
           <div class="icon-row">Tel <a href="tel:+18014893020">801.489.3020</a></div>
         </div>
+
+        <div class="inquiry-wrap">
+          <p class="inquiry-hint">Envíenos un mensaje y le responderemos pronto.</p>
+          <form class="inquiry-form" action="https://docs.google.com/forms/d/e/1FAIpQLSdquoqJqfUYbX-egPub1p-YHe_UEUDZe0yP-lK8zxhJYwYvbA/formResponse" method="POST" target="hidden_iframe" onsubmit="document.getElementById('inquiry-success').style.display='block'; document.querySelector('.inquiry-wrap').style.display='none';">
+            <input type="text" name="entry.1564832811" placeholder="Nombre del padre/madre/tutor" required>
+            <div class="form-row">
+              <input type="tel" name="entry.713994462" placeholder="Número de teléfono" required>
+              <input type="text" name="entry.46893683" placeholder="Edad(es) del niño(a)" required>
+            </div>
+            <input type="text" name="entry.2012898014" placeholder="Nombre(s) del niño(a)" required>
+            <textarea name="entry.1904749395" placeholder="¿Algo más que debamos saber? (opcional)"></textarea>
+            <button type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+        <div id="inquiry-success" class="inquiry-success">¡Gracias! Su mensaje ha sido enviado &ndash; nos pondremos en contacto pronto.</div>
+        <iframe name="hidden_iframe" style="display:none;"></iframe>
       </div>
     </div>
   </main>
